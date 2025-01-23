@@ -1,0 +1,113 @@
+.navbar-darkcyan {
+    background-color: rgba(4, 59, 100, 1); /* Dark Cyan Blue */
+    height:101px;
+    border-redius:10px;
+  }
+  
+  .gap-2 > * {
+    margin-left: 8px; /* Adds gap between buttons */
+  }
+  .logoimg{
+    margin-top:-30px;
+  }
+  .btn-login {
+    background-color: white;
+    color: black;
+  }
+  
+  .btn-signup {
+    background-color: rgba(4, 59, 100, 1); /* Dark Cyan Blue */
+    color: white;
+    border: 1px solid white;
+  }
+  
+  .logoimg {
+    width: 165px;
+    height: 69px;
+    /* Optional: Only needed if positioning is required */
+    position: relative; 
+    top: 16px;
+    left: 45px;
+  }
+  
+  .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1262px;
+    height: 502px; 
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  .card2 {
+    background-color: rgba(4, 59, 100, 1); 
+    width: 680px;
+    height: 502px;
+    left:602px;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box; 
+  }
+  
+  .card2 p {
+    font-size: 10px;
+    line-height: 1.5; 
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .card {
+      grid-template-columns: 1fr; 
+      width: 100%; 
+     
+    }
+  
+    .card2 {
+      width: 100%; 
+      height: auto; 
+    }
+  .form-data{
+    margin-top:30px;
+    border: 1px solid red;
+  }
+    .logoimg {
+      width: 120px; /* Scale logo for smaller screens */
+      height: auto;
+    }
+  }
+/* Center-align the parent container */
+
+ .justify-content-center{
+    margin:auto;
+ }
+  
+  /* Input and label styling */
+  .form-label {
+    display: block; 
+    margin-bottom: 5px;
+    text-align: left; 
+  }
+  
+  .form-control {
+    width: 100%; 
+   
+    box-sizing: border-box; 
+  }
+  
+ .mb-3 {
+    margin-bottom: 16px;
+  } 
+  .btn-btn3 {
+   
+    margin-right: 500px;
+    background-color:white;
+    width:129px;
+    height:34px
+  }
+  .accound {
+    text-align: left;
+    font-size: 16px !important; 
+    margin-top: 20px;
+  }
+  
+    

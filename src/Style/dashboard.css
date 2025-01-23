@@ -1,0 +1,45 @@
+.dashboard {
+    height: 100vh;
+    background-color: rgba(4, 59, 100, 1);
+  }
+  
+  .sidebar {
+    width: 300px;
+     /* Dark Cyan Blue */
+    color:white;
+  }
+  .nav{
+    width:100%;
+    margin-top:100px;
+    align-item:left;
+    text-align:start;
+  }
+  
+  .content {
+    background-color: #f8f9fa;
+    border-radius: 30px;
+    /* width:1060px; */
+    height:700px;   
+    margin-top:20px;
+    margin-right:20px;
+    z-inde:1;
+    overflow:auto;
+  }
+  .nav-link {
+    border:1px solid red;
+    width: 100%;
+    height: 50px;
+    border-top: 0.5px solid white;   /* Border on top */
+    border-bottom: 0.5px solid white; /* Border on bottom */
+    border-left: none;  /* No border on left */
+    border-right: none; /* No border on right */
+    fontwight:bold;
+  }
+  
+  .nav-link :hover{
+    background-color: #f8f9fa;
+    couser:pointer;
+  }
+  .container-das{
+    text-align:start;
+  }
