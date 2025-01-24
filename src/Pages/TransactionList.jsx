@@ -1,11 +1,43 @@
-import React from 'react'
+import React from 'react';
+import "../Style/transactionList.css"
 
 const TransactionList = () => {
   return (
     <div>
-      <h1>Liat2</h1>
+      <div className="user-list">
+        {/* Header for the table */}
+        <h4 className="text-left">Transaction List</h4>
+        {/* Table container */}
+        <div className="table-responsive">
+          <table className="table" style={{boxShadow:"rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;" ,backgroundColor:"rgb(246, 246, 246)"}}>
+            {/* Table header */}
+            <thead>
+              <tr>
+                <th style={{fontWeight:"bold", textAlign:"start"}}>Name</th>
+                <th>Nidheesh Aniyaram</th>
+              </tr>
+            </thead>
+            {/* Table body with dynamic content */}
+            <tbody>
+              {[
+                { name: "Reference no.", details: "640389ab394ee" },
+                { name: "Business Promoters", details: "201" },
+                { name: "Business Income", details: "100500" },
+                { name: "Purchase Amount", details: "10400" },
+                { name: "Business Partners", details: "5" },
+                { name: "Give Help Amount", details: "2500" },
+              ].map((item, index) => (
+                <tr key={index}>
+                  <td style={{fontWeight:"bold", textAlign:"start"}}>{item.name}</td>
+                  <td>{item.details}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default TransactionList
+export default TransactionList;
