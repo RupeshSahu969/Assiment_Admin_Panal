@@ -7,6 +7,7 @@ import TransactionList from "../Pages/TransactionList";
 import VideoManagement from "../Pages/VideoManagement";
 import TopReceiversList from "../Pages/TopReceiversList";
 import DashboardRoute from "../MainRoute/DashboardRoute";
+import startsimage from "../asset/Stats.png"
 
 const Dashboard = () => {
   return (
@@ -47,8 +48,9 @@ const Dashboard = () => {
        </div>
 
         {/* Chart Section */}
-        <div className="chart bg-light p-3 mb-4" style={{ height: "150px" }}>
-          <p>Chart Placeholder</p>
+        <div className="chart">
+          
+          <img src={startsimage} className="strchart" alt="startsimage" />
         </div>
         <div>
             <DashboardRoute/>
