@@ -21,7 +21,6 @@ const UserList = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form Data Submitted: ", formData);
-    // Perform actions such as API call or state updates
   };
 
   return (

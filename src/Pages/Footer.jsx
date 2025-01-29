@@ -21,9 +21,9 @@ const Footer = () => {
               <img src={footerimage} className="imges" alt="footericons" />
 
               <p className="lorem">
-                Lorem ipsum dolor sit, amet consectetur <br/> adipisicing elit.
-                Dolorum, eligendi, voluptatibus <br/> deleniti ipsum officiis alias ex
-                impedit.
+                Lorem ipsum dolor sit, amet consectetur <br /> adipisicing elit.
+                Dolorum, eligendi, voluptatibus <br /> deleniti ipsum officiis
+                alias ex impedit.
               </p>
             </div>
 
@@ -63,15 +63,13 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          
+
           <hr />
-        {/* Copyright */}
-        <div className="footer-center p-4">
-        Copyright © 2025. All rights reserved.
-         
+          {/* Copyright */}
+          <div className="footer-center p-4">
+            Copyright © 2025. All rights reserved.
+          </div>
         </div>
-        </div>
-      
       </section>
     </footer>
   );
