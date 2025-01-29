@@ -20,9 +20,9 @@ form   label{
   }
   .modal-header {
     background-color: rgba(4, 59, 100, 1);
-    text-align: center; /* This will center text if used */
+    text-align: center;
     color: white;
-    justify-content: center; /* Correct spelling of justify-content */
-    display: flex; /* Required for justify-content to work */
-    align-items: center; /* Center vertically if needed */
+    justify-content: center; 
+    display: flex; 
+    align-items: center; 
 }

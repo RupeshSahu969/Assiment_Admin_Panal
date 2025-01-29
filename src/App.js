@@ -1,17 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './Comonent/Navbar';
-import Footer from './Pages/Footer';
-import Dashboard from './Comonent/Dashboard';
-import UserList from './Pages/UserList';
+import logo from "./logo.svg";
+import "./App.css";
+
+import Dashboard from "./Comonent/Dashboard";
 
 function App() {
   return (
     <div className="App">
-    {/* <Navbar/>
-    <Footer/> */}
-    <Dashboard/>
-    
+      <Dashboard />
     </div>
   );
 }

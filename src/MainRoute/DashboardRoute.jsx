@@ -6,17 +6,14 @@ import VideoManagement from "../Pages/VideoManagement";
 import TopReceiversList from "../Pages/TopReceiversList";
 
 const DashboardRoute = () => {
-    
   return (
     <div>
-      
-        <Routes>
-          <Route path="/" element={<UserList />} />
-          <Route path="/transaction" element={<TransactionList />} />
-          <Route path="/videoManagement" element={<VideoManagement />} />
-          <Route path="/topReceiversList" element={<TopReceiversList />} />
-        </Routes>
-      
+      <Routes>
+        <Route path="/" element={<UserList />} />
+        <Route path="/transaction" element={<TransactionList />} />
+        <Route path="/videoManagement" element={<VideoManagement />} />
+        <Route path="/topReceiversList" element={<TopReceiversList />} />
+      </Routes>
     </div>
   );
 };
